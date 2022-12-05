@@ -7,11 +7,15 @@ public class Utils {
     }
 
 //    customer logger function
-    public void logger(String logContext, String message) {
+    public void logger(String logContext, String message, Enum logColor) {
         System.out.println(
-                LocalDateTime.now().format(DateTimeFormatter.ofPattern("hh:mm:ss SSS a")) +
-                        logContext + "::" + message
+                logColor + LocalDateTime.now().format(DateTimeFormatter.ofPattern("hh:mm:ss SSS a")) +
+                        " - " + logContext + " ::: " + message + Colours.COLOR_RESET
         );
+    }
+
+    public int generateRandomNumber(int lowerBound, int upperBound) {
+        return (int) (Math.random() * (upperBound - lowerBound)) + lowerBound;
     }
 
 }
