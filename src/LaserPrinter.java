@@ -41,7 +41,7 @@ public class LaserPrinter implements ServicePrinter {
         currentTonerLevel -= pagesToPrint;
         printedDocumentCount++;
         utils.logger(
-                "LaserPrinter ",
+                "Laser Printer ",
                 "Printed " + pagesToPrint + " pages of " + document.getDocumentName() +
                         " by " + document.getUserID() + " from " + laserPrinterName +
                         ". Paper Level now: " + currentPaperLevel + ". Toner Level now: " +
@@ -130,11 +130,11 @@ public class LaserPrinter implements ServicePrinter {
 
     @Override
     public String toString() {
-        return "[" +
+        return "{" +
                 "Printer Name: '" + laserPrinterName + '\'' +
                 ", Paper Level: " + currentPaperLevel +
                 ", Toner Level: " + currentTonerLevel +
                 ", Documents Printed: " + printedDocumentCount +
-                ']';
+                '}';
     }
 }

@@ -49,7 +49,7 @@ public class Student extends Thread {
                     utils.logger(
                             "Student Document",
                             studentName + " is sleeping for " + sleepTime +
-                                    " milliseconds after priniting " + documentName + " document.",
+                                    " milliseconds after printing " + documentName + " document.",
                             Colours.COLOR_RESET
                     );
                     Thread.sleep(sleepTime);
