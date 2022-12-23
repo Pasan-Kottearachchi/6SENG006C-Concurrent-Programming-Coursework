@@ -1,0 +1,37 @@
+//Define the CONSTANTS of the system
+const MAX_NO_OF_PAPER = 3
+range PAPER_RANGE     = 1 .. MAX_NO_OF_PAPER
+
+//Set of actions
+set USERS = {stud_1, stud_2, tech }
+set Print_Actions = {stud.acquire, documentPrint[PAPER_RANGE],
+						stud.release, technician.refillPrinterSheets,
+						technician.acquire, technician.release}
+
+//Initialise the process of student
+STUDENT(NO_OF_DOCS = 1) = PRINT_DOCUMENT[NO_OF_DOCS],
+PRINT_DOCUMENT[doc : 1 .. NO_OF_DOCS] = (
+	stud.acquire -> documentPrint[NO_OF_DOCS - doc + 1] ->
+	if (doc > 1) 
+		then (stud.release -> PRINT_DOCUMENT[doc - 1])
+		else (stud.release -> END) 
+	) 
+	+ Print_Actions .     //action extention
+
+//Initialise the process of technician
+TECHNICIAN = (technician.acquire -> technician.refillPrinterSheets -> technician.release -> TECHNICIAN 
+			  |
+			  checkAvailableSheets -> TECHNICIAN)	//define asynchronous process
+			  + Print_Actions.  
+
+//Initialise the process of printer
+PRINTER(SHEET_COUNT = MAX_NO_OF_PAPER) = PRINT_PAPER[SHEET_COUNT],
+PRINT_PAPER[sheet : 0 .. SHEET_COUNT ] = (
+	when(sheet > 0) stud.acquire -> documentPrint[PAPER_RANGE] -> stud.release -> PRINT_PAPER[sheet - 1]
+	|
+	when (sheet == 0) technician.acquire -> technician.refillPrinterSheets -> technician.release -> PRINT_PAPER[MAX_NO_OF_PAPER]
+) .
+
+//Print COMPOSITE Finite State Machines
+|| PRINTING_SYSTEM = (stud_1:STUDENT(3) || stud_2:STUDENT(2) 
+						|| tech: TECHNICIAN || {USERS}::PRINTER) .
