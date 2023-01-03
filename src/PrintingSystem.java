@@ -8,7 +8,7 @@ public class PrintingSystem {
                 "Shared Printer",
                 studentsGroup,
                 10,
-                50
+                10
         );
 
         Thread student1 = new Student(studentsGroup, sharedPrinter, "student1");
