@@ -1,62 +1,64 @@
  ===============================================
 |                PRINTER SUMMARY                |  
  ===============================================
-{Printer Name: 'Shared Printer', Paper Level: 10, Toner Level: 50, Documents Printed: 0}
+{Printer Name: 'Shared Printer', Paper Level: 10, Toner Level: 10, Documents Printed: 0}
 
-12:10:42 499 PM - Laser Printer ::: Refill paper attempt 1 by paperTechnician on Shared Printer successful. Paper level now 60
-12:10:42 983 PM - Laser Printer  ::: Printed 7 pages of DOCUMENT_1 - student1 - 7 by student1 from Shared Printer. Paper Level now: 53. Toner Level now: 43. Documents Printed now: 1
-12:10:42 983 PM - Student Document ::: student1 is sleeping for 1005 milliseconds after printing DOCUMENT_1 - student1 - 7 document.
-12:10:42 983 PM - Paper Technician ::: paperTechnician is sleeping for 4747 milliseconds after refilling papers.
-12:10:42 996 PM - Laser Printer  ::: Printed 2 pages of DOCUMENT_1 - student3 - 2 by student3 from Shared Printer. Paper Level now: 51. Toner Level now: 41. Documents Printed now: 2
-12:10:42 997 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_1 - student2 - 5 by student2 from Shared Printer. Paper Level now: 46. Toner Level now: 36. Documents Printed now: 3
-12:10:42 999 PM - Student Document ::: student2 is sleeping for 3710 milliseconds after printing DOCUMENT_1 - student2 - 5 document.
-12:10:42 998 PM - Student Document ::: student3 is sleeping for 3328 milliseconds after printing DOCUMENT_1 - student3 - 2 document.
-12:10:43 000 PM - Laser Printer  ::: Printed 1 pages of DOCUMENT_1 - student4 - 1 by student4 from Shared Printer. Paper Level now: 45. Toner Level now: 35. Documents Printed now: 4
-12:10:43 001 PM - Student Document ::: student4 is sleeping for 1425 milliseconds after printing DOCUMENT_1 - student4 - 1 document.
-12:10:44 002 PM - Laser Printer  ::: Printed 3 pages of DOCUMENT_2 - student1 - 3 by student1 from Shared Printer. Paper Level now: 42. Toner Level now: 32. Documents Printed now: 5
-12:10:44 002 PM - Student Document ::: student1 is sleeping for 2943 milliseconds after printing DOCUMENT_2 - student1 - 3 document.
-12:10:44 427 PM - Laser Printer  ::: Printed 8 pages of DOCUMENT_2 - student4 - 8 by student4 from Shared Printer. Paper Level now: 34. Toner Level now: 24. Documents Printed now: 6
-12:10:44 427 PM - Student Document ::: student4 is sleeping for 3490 milliseconds after printing DOCUMENT_2 - student4 - 8 document.
-12:10:46 328 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_2 - student3 - 5 by student3 from Shared Printer. Paper Level now: 29. Toner Level now: 19. Documents Printed now: 7
-12:10:46 329 PM - Student Document ::: student3 is sleeping for 1475 milliseconds after printing DOCUMENT_2 - student3 - 5 document.
-12:10:46 711 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_2 - student2 - 5 by student2 from Shared Printer. Paper Level now: 24. Toner Level now: 14. Documents Printed now: 8
-12:10:46 713 PM - Student Document ::: student2 is sleeping for 1716 milliseconds after printing DOCUMENT_2 - student2 - 5 document.
-12:10:46 946 PM - Laser Printer  ::: Printed 9 pages of DOCUMENT_3 - student1 - 9 by student1 from Shared Printer. Paper Level now: 15. Toner Level now: 5. Documents Printed now: 9
-12:10:46 952 PM - Student Document ::: student1 is sleeping for 2085 milliseconds after printing DOCUMENT_3 - student1 - 9 document.
-12:10:47 743 PM - Laser Printer ::: Refill paper attempt 2 by paperTechnician on Shared Printer successful. Paper level now 65
-12:10:47 744 PM - Laser Printer ::: Refill toner attempt 1 by tonerTechnician on Shared Printer successful. Toner level now: 505
-12:10:47 744 PM - Toner Technician ::: tonerTechnician is sleeping for 4705 milliseconds after refilling toner cartridge.
-12:10:47 744 PM - Paper Technician ::: paperTechnician is sleeping for 2173 milliseconds after refilling papers.
-12:10:47 806 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_3 - student3 - 6 by student3 from Shared Printer. Paper Level now: 59. Toner Level now: 499. Documents Printed now: 10
-12:10:47 806 PM - Student Document ::: student3 is sleeping for 1468 milliseconds after printing DOCUMENT_3 - student3 - 6 document.
-12:10:47 917 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_3 - student4 - 5 by student4 from Shared Printer. Paper Level now: 54. Toner Level now: 494. Documents Printed now: 11
-12:10:47 917 PM - Student Document ::: student4 is sleeping for 4860 milliseconds after printing DOCUMENT_3 - student4 - 5 document.
-12:10:48 431 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_3 - student2 - 5 by student2 from Shared Printer. Paper Level now: 49. Toner Level now: 489. Documents Printed now: 12
-12:10:48 431 PM - Student Document ::: student2 is sleeping for 1868 milliseconds after printing DOCUMENT_3 - student2 - 5 document.
-12:10:49 039 PM - Laser Printer  ::: Printed 9 pages of DOCUMENT_4 - student1 - 9 by student1 from Shared Printer. Paper Level now: 40. Toner Level now: 480. Documents Printed now: 13
-12:10:49 040 PM - Student Document ::: student1 is sleeping for 3935 milliseconds after printing DOCUMENT_4 - student1 - 9 document.
-12:10:49 275 PM - Laser Printer  ::: Printed 3 pages of DOCUMENT_4 - student3 - 3 by student3 from Shared Printer. Paper Level now: 37. Toner Level now: 477. Documents Printed now: 14
-12:10:49 275 PM - Student Document ::: student3 is sleeping for 3268 milliseconds after printing DOCUMENT_4 - student3 - 3 document.
-12:10:49 918 PM - Laser Printer ::: Refill paper attempt 3 by paperTechnician on Shared Printer successful. Paper level now 87
-12:10:49 918 PM - Paper Technician ::: paperTechnician Finished, packs of paper used: 3
-12:10:50 300 PM - Laser Printer  ::: Printed 1 pages of DOCUMENT_4 - student2 - 1 by student2 from Shared Printer. Paper Level now: 86. Toner Level now: 476. Documents Printed now: 15
-12:10:50 300 PM - Student Document ::: student2 is sleeping for 3263 milliseconds after printing DOCUMENT_4 - student2 - 1 document.
-12:10:52 545 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_5 - student3 - 5 by student3 from Shared Printer. Paper Level now: 81. Toner Level now: 471. Documents Printed now: 16
-12:10:52 547 PM - Student Document ::: student3 Finished Printing : 5 documents, 21 pages.
-12:10:52 778 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_4 - student4 - 5 by student4 from Shared Printer. Paper Level now: 76. Toner Level now: 466. Documents Printed now: 17
-12:10:52 778 PM - Student Document ::: student4 is sleeping for 2111 milliseconds after printing DOCUMENT_4 - student4 - 5 document.
-12:10:52 975 PM - Laser Printer  ::: Printed 2 pages of DOCUMENT_5 - student1 - 2 by student1 from Shared Printer. Paper Level now: 74. Toner Level now: 464. Documents Printed now: 18
-12:10:52 975 PM - Student Document ::: student1 Finished Printing : 5 documents, 30 pages.
-12:10:53 564 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_5 - student2 - 6 by student2 from Shared Printer. Paper Level now: 68. Toner Level now: 458. Documents Printed now: 19
-12:10:53 564 PM - Student Document ::: student2 Finished Printing : 5 documents, 22 pages.
-12:10:54 890 PM - Laser Printer  ::: Printed 9 pages of DOCUMENT_5 - student4 - 9 by student4 from Shared Printer. Paper Level now: 59. Toner Level now: 449. Documents Printed now: 20
-12:10:54 890 PM - Student Document ::: student4 Finished Printing : 5 documents, 28 pages.
-12:10:57 460 PM - Laser Printer ::: Completed all threads. Toner refill process terminating
-12:10:57 460 PM - Toner Technician ::: tonerTechnician is sleeping for 1143 milliseconds after refilling toner cartridge.
-12:11:03 614 PM - Laser Printer ::: Completed all threads. Toner refill process terminating
-12:11:03 614 PM - Toner Technician ::: tonerTechnician Finished, cartridges replaced: 3
+04:09:50 475 PM - Laser Printer ::: Refill paper attempt 1 by paperTechnician on Shared Printer successful. Paper level now 60
+04:09:50 620 PM - Laser Printer  ::: Printed 4 pages of DOCUMENT_1 - student1 - 4 by student1 from Shared Printer. Paper Level now: 56. Toner Level now: 6. Documents Printed now: 1
+04:09:50 620 PM - Student Document ::: student1 is sleeping for 1829 milliseconds after printing DOCUMENT_1 - student1 - 4 document.
+04:09:50 622 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_1 - student4 - 5 by student4 from Shared Printer. Paper Level now: 51. Toner Level now: 1. Documents Printed now: 2
+04:09:50 622 PM - Student Document ::: student4 is sleeping for 3146 milliseconds after printing DOCUMENT_1 - student4 - 5 document.
+04:09:50 622 PM - Laser Printer  ::: Cannot print [DOCUMENT_1 - student2 - 5] by: student2 from Shared Printer. Paper Level: 51. Toner Level: 1. Documents Printed: 2
+04:09:50 623 PM - Laser Printer  ::: Cannot print [DOCUMENT_1 - student3 - 8] by: student3 from Shared Printer. Paper Level: 51. Toner Level: 1. Documents Printed: 2
+04:09:50 623 PM - Laser Printer ::: Refill toner attempt 1 by tonerTechnician on Shared Printer successful. Toner level now: 501
+04:09:50 619 PM - Paper Technician ::: paperTechnician is sleeping for 2391 milliseconds after refilling papers.
+04:09:50 624 PM - Laser Printer  ::: Printed 8 pages of DOCUMENT_1 - student3 - 8 by student3 from Shared Printer. Paper Level now: 43. Toner Level now: 493. Documents Printed now: 3
+04:09:50 623 PM - Toner Technician ::: tonerTechnician is sleeping for 2339 milliseconds after refilling toner cartridge.
+04:09:50 624 PM - Student Document ::: student3 is sleeping for 1660 milliseconds after printing DOCUMENT_1 - student3 - 8 document.
+04:09:50 624 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_1 - student2 - 5 by student2 from Shared Printer. Paper Level now: 38. Toner Level now: 488. Documents Printed now: 4
+04:09:50 624 PM - Student Document ::: student2 is sleeping for 2438 milliseconds after printing DOCUMENT_1 - student2 - 5 document.
+04:09:52 284 PM - Laser Printer  ::: Printed 7 pages of DOCUMENT_2 - student3 - 7 by student3 from Shared Printer. Paper Level now: 31. Toner Level now: 481. Documents Printed now: 5
+04:09:52 284 PM - Student Document ::: student3 is sleeping for 1290 milliseconds after printing DOCUMENT_2 - student3 - 7 document.
+04:09:52 451 PM - Laser Printer  ::: Printed 9 pages of DOCUMENT_2 - student1 - 9 by student1 from Shared Printer. Paper Level now: 22. Toner Level now: 472. Documents Printed now: 6
+04:09:52 451 PM - Student Document ::: student1 is sleeping for 3423 milliseconds after printing DOCUMENT_2 - student1 - 9 document.
+04:09:53 015 PM - Laser Printer ::: Refill paper attempt 2 by paperTechnician on Shared Printer successful. Paper level now 72
+04:09:53 015 PM - Paper Technician ::: paperTechnician is sleeping for 4347 milliseconds after refilling papers.
+04:09:53 062 PM - Laser Printer  ::: Printed 4 pages of DOCUMENT_2 - student2 - 4 by student2 from Shared Printer. Paper Level now: 68. Toner Level now: 468. Documents Printed now: 7
+04:09:53 062 PM - Student Document ::: student2 is sleeping for 3482 milliseconds after printing DOCUMENT_2 - student2 - 4 document.
+04:09:53 574 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_3 - student3 - 6 by student3 from Shared Printer. Paper Level now: 62. Toner Level now: 462. Documents Printed now: 8
+04:09:53 574 PM - Student Document ::: student3 is sleeping for 1053 milliseconds after printing DOCUMENT_3 - student3 - 6 document.
+04:09:53 770 PM - Laser Printer  ::: Printed 9 pages of DOCUMENT_2 - student4 - 9 by student4 from Shared Printer. Paper Level now: 53. Toner Level now: 453. Documents Printed now: 9
+04:09:53 770 PM - Student Document ::: student4 is sleeping for 2933 milliseconds after printing DOCUMENT_2 - student4 - 9 document.
+04:09:54 629 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_4 - student3 - 6 by student3 from Shared Printer. Paper Level now: 47. Toner Level now: 447. Documents Printed now: 10
+04:09:54 629 PM - Student Document ::: student3 is sleeping for 3997 milliseconds after printing DOCUMENT_4 - student3 - 6 document.
+04:09:55 875 PM - Laser Printer  ::: Printed 8 pages of DOCUMENT_3 - student1 - 8 by student1 from Shared Printer. Paper Level now: 39. Toner Level now: 439. Documents Printed now: 11
+04:09:55 875 PM - Student Document ::: student1 is sleeping for 1010 milliseconds after printing DOCUMENT_3 - student1 - 8 document.
+04:09:56 545 PM - Laser Printer  ::: Printed 4 pages of DOCUMENT_3 - student2 - 4 by student2 from Shared Printer. Paper Level now: 35. Toner Level now: 435. Documents Printed now: 12
+04:09:56 546 PM - Student Document ::: student2 is sleeping for 4118 milliseconds after printing DOCUMENT_3 - student2 - 4 document.
+04:09:56 703 PM - Laser Printer  ::: Printed 5 pages of DOCUMENT_3 - student4 - 5 by student4 from Shared Printer. Paper Level now: 30. Toner Level now: 430. Documents Printed now: 13
+04:09:56 703 PM - Student Document ::: student4 is sleeping for 4087 milliseconds after printing DOCUMENT_3 - student4 - 5 document.
+04:09:56 886 PM - Laser Printer  ::: Printed 7 pages of DOCUMENT_4 - student1 - 7 by student1 from Shared Printer. Paper Level now: 23. Toner Level now: 423. Documents Printed now: 14
+04:09:56 886 PM - Student Document ::: student1 is sleeping for 4445 milliseconds after printing DOCUMENT_4 - student1 - 7 document.
+04:09:57 363 PM - Laser Printer ::: Refill paper attempt 3 by paperTechnician on Shared Printer successful. Paper level now 73
+04:09:57 363 PM - Paper Technician ::: paperTechnician Finished, packs of paper used: 3
+04:09:58 627 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_5 - student3 - 6 by student3 from Shared Printer. Paper Level now: 67. Toner Level now: 417. Documents Printed now: 15
+04:09:58 628 PM - Student Document ::: student3 Finished Printing : 5 documents, 33 pages.
+04:10:00 664 PM - Laser Printer  ::: Printed 3 pages of DOCUMENT_4 - student2 - 3 by student2 from Shared Printer. Paper Level now: 64. Toner Level now: 414. Documents Printed now: 16
+04:10:00 664 PM - Student Document ::: student2 is sleeping for 3619 milliseconds after printing DOCUMENT_4 - student2 - 3 document.
+04:10:00 790 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_4 - student4 - 6 by student4 from Shared Printer. Paper Level now: 58. Toner Level now: 408. Documents Printed now: 17
+04:10:00 790 PM - Student Document ::: student4 is sleeping for 3540 milliseconds after printing DOCUMENT_4 - student4 - 6 document.
+04:10:01 333 PM - Laser Printer  ::: Printed 6 pages of DOCUMENT_5 - student1 - 6 by student1 from Shared Printer. Paper Level now: 52. Toner Level now: 402. Documents Printed now: 18
+04:10:01 333 PM - Student Document ::: student1 Finished Printing : 5 documents, 34 pages.
+04:10:04 284 PM - Laser Printer  ::: Printed 9 pages of DOCUMENT_5 - student2 - 9 by student2 from Shared Printer. Paper Level now: 43. Toner Level now: 393. Documents Printed now: 19
+04:10:04 284 PM - Student Document ::: student2 Finished Printing : 5 documents, 25 pages.
+04:10:04 332 PM - Laser Printer  ::: Printed 3 pages of DOCUMENT_5 - student4 - 3 by student4 from Shared Printer. Paper Level now: 40. Toner Level now: 390. Documents Printed now: 20
+04:10:04 332 PM - Student Document ::: student4 Finished Printing : 5 documents, 28 pages.
+04:10:07 364 PM - Laser Printer ::: Completed all threads. Toner refill process terminating
+04:10:07 364 PM - Toner Technician ::: tonerTechnician is sleeping for 4247 milliseconds after refilling toner cartridge.
+04:10:16 624 PM - Laser Printer ::: Completed all threads. Toner refill process terminating
+04:10:16 624 PM - Toner Technician ::: tonerTechnician Finished, cartridges replaced: 3
  ===============================================
 |                PRINTER SUMMARY                |  
  ===============================================
-{Printer Name: 'Shared Printer', Paper Level: 59, Toner Level: 449, Documents Printed: 20}
+{Printer Name: 'Shared Printer', Paper Level: 40, Toner Level: 390, Documents Printed: 20}
 
